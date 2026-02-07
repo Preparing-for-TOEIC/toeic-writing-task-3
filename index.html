@@ -410,6 +410,22 @@
       flex-wrap:wrap;
       justify-content:flex-end;
     }
+    /* 1) Reduce overall page top padding */
+.wrap{
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 18px 16px 60px; /* was: 26px 16px 72px */
+}
+
+/* 2) Reduce space under the main title/subtitle */
+.header{ 
+  margin-bottom: 8px;      /* was: 14px */
+}
+
+/* 3) Reduce space between card edge and prompt/panel */
+.section{ 
+  padding: 12px;           /* was: 18px */
+}
   </style>
 </head>
 
